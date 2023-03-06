@@ -1,0 +1,26 @@
+#include "SoftwareSerial.h"
+
+SoftwareSerial bt (2,3); \\RX, TX
+int ReadBt;
+int PinRelay = 7;
+
+void setup() {
+  Serial.begin(9600);
+  bt.begin(9600);
+  
+  pinMode(PinRelay, OUTPUT);
+}
+
+void loop() {
+  if (bt.available() > 0){
+    ReadBt = bt.read();
+    if (ReadBt == '0'){
+      digitalWrite(PinRelay, HIGH);
+      bt.println("Relay: Ligado");
+    }
+    if (ReadBt == '1'){
+      digitalWrite(PinRelay, LOW);
+      bt.println("Relay: Desligado");
+    }
+  }  
+}
