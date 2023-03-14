@@ -19,6 +19,7 @@ Desenvolver um disposivo de automação através do controle de energia elétric
 ## Breve descrição do desenvolvimento do projeto
 Primeiramente será realizada a montagem das conexões entre os módulos e o Arduino da maneira como está na imagem "Montagem.png" nesse mesmo repositório. O código utilizado para conexão e controle desses dispositivos esta salvo no arquivo "código" e ele será desenvolvido em linguagem C voltada para Arduino.
 Outrossim, para realizar o controle de ligar e desligar dos dispositivos conectados será adaptado um conector de pinos macho e fêmea no qual irá correr a corrente de energia vinda da tomada e, pelo relé, será controlada a função ligar ou deligar dessa corrente.
+
 Ao mesmo tempo, será desenvolvido um aplicativo simples para controle do dispositivo via internet.
 
 ## Observações
