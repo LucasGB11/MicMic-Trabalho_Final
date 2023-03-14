@@ -1,4 +1,4 @@
-# Microprocessadores e Microcontroladores - Grupo C - Trabalho Final MICMIC
+# Microprocessadores e Microcontroladores - Grupo C - Trabalho Final
 
 ## Integrantes
 - 759030 - Camila Isabel de Souza Bueno
