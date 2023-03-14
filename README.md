@@ -12,8 +12,9 @@ Desenvolver um disposivo de automação através do controle de energia elétric
 
 ## Materiais utilizados
 - Arduino uno;
+- Ethernet Shield;
 - Relé;
-- Adicionais necessários para acrescentar o controle via internet.
+- Fios de energia, para conectar o aparelho na energia;
 
 ## Breve descrição do desenvolvimento do projeto
 Primeiramente será realizada a montagem das conexões entre os módulos e o Arduino da maneira como está na imagem "Montagem.png" nesse mesmo repositório. O código utilizado para conexão e controle desses dispositivos esta salvo no arquivo "código" e ele será desenvolvido em linguagem C voltada para Arduino.
