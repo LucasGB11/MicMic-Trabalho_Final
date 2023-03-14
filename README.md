@@ -8,11 +8,10 @@
 - 770153 -  Matheus Bolson
 
 ## Objetivo
-Desenvolver um disposivo de automação através do controle de energia elétrica a qual passa em algum equipamento eletrônico, como uma lâmpada. Dessa forma, o equipamento deverá ligar e desligar de maneira remota, ou seja, esse poderá ser controlado via bluetooth ou internet.
+Desenvolver um disposivo de automação através do controle de energia elétrica a qual passa em algum equipamento eletrônico, como uma lâmpada. Dessa forma, o equipamento deverá ligar e desligar de maneira remota, ou seja, esse poderá ser controlado via internet.
 
 ## Materiais utilizados
 - Arduino uno;
-- Módulo bluetooth;
 - Relé;
 - Adicionais necessários para acrescentar o controle via internet.
 
@@ -21,4 +20,10 @@ Primeiramente será realizada a montagem das conexões entre os módulos e o Ard
 Outrossim, para realizar o controle de ligar e desligar dos dispositivos conectados será adaptado um conector de pinos macho e fêmea no qual irá correr a corrente de energia vinda da tomada e, pelo relé, será controlada a função ligar ou deligar dessa corrente.
 
 ## Observações
-A ideia inicial preocupava-se apenas com o controle por meio da conexão bluetooth, logo a sugestão de controle via internet ainda não foi implementada. Por conseguinte serão estudados os materiais necessários e a maneira de integração destes com o projeto inicial no decorrer das próximas semanas. Assim, atualizações serão realizadas posteriormente na descrição do projeto. 
+- SEMANA 1: A ideia inicial preocupava-se apenas com o controle por meio da conexão bluetooth, logo a sugestão de controle via internet ainda não foi implementada. Por conseguinte serão estudados os materiais necessários e a maneira de integração destes com o projeto inicial no decorrer das próximas semanas. Assim, atualizações serão realizadas posteriormente na descrição do projeto. 
+- SEMANA 2: Após pesquisas relacionadas ao controle do arduino via internet, foi descartada a ideia inicial de controle pelo bluetooth. Dessa forma, o "Ojetivo", "Materiais utilizados" e a "Breve descrição do desenvolvimento do projeto" foram atualidos para comportarem a alteração do projeto.
+
+## Referências
+- https://www.youtube.com/watch?v=IUVoIux3oNo&t=385s - Leitura de Sensor - App inventor Ethernet Shield
+- https://www.youtube.com/watch?v=4Vc5Rmuu7kc - AppInventor y Arduino Ethernet
+- https://www.youtube.com/watch?v=r15dVlsg2wA - Luminárias controladas por Arduino e Ethernet Shield via App Android
