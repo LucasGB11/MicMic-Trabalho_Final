@@ -32,3 +32,4 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - https://www.youtube.com/watch?v=IUVoIux3oNo&t=385s - Leitura de Sensor - App inventor Ethernet Shield
 - https://www.youtube.com/watch?v=4Vc5Rmuu7kc - AppInventor y Arduino Ethernet
 - https://www.youtube.com/watch?v=r15dVlsg2wA - Luminárias controladas por Arduino e Ethernet Shield via App Android
+- https://vlab.dc.ufscar.br/examples/arduino_uno/web.txt - Exemplo de controle do arduino via web, fornecido pelo Departamento de Computação da UFSCar
