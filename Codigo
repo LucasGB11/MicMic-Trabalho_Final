@@ -1,48 +1,91 @@
-#include <SPI.h>
-#include <Ethernet.h>
+#include <SPI.h> 
+#include <Ethernet.h> 
 
 //Define a variavel PinRelay como sendo o pino 7 do arduino
 int PinRelay = 7;
 
-//Definições de IP, máscara de rede e gateway
-byte mac[]     = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-byte ip[]      = {192, 168, 1, 100};
-byte gateway[] = {192, 168, 1, 1}; 
+byte mac[] = {0xCA, 0xFE, 0xBA, 0xBE, 0xFE, 0xED};
+byte ip[]      = {192, 168 , 1, 100};
+byte gateway[] = {192,  168,  1, 101}; 
 byte subnet[]  = {255, 255, 255, 0}; 
 
 //Inicializa o servidor web na porta 80
-EthernetServer server(80);
+EthernetServer server(80); 
+ 
+String readString = String(30); 
+int status = 0; 
 
-void setup() {
-  //Inicializa a interface de rede
-  Ethernet.begin(mac, ip, gateway, subnet);
-  server.begin();
-
+void setup(){
   //Inicia o monitor serial
   Serial.begin(9600);
+
+  //Inicializa a interface de rede
+  Ethernet.begin(mac, ip, gateway, subnet); 
+  server.begin(); 
 
   //Inicia o pino 7 do arduino como saida
   pinMode(PinRelay, OUTPUT);
   digitalWrite(PinRelay, LOW);
 }
 
-void loop() {
+void loop(){
   //Aguarda conexão do browser
-  EthernetClient client = server.available();
-  if (client){
-    Serial.println("novo dispositivo conectado");
-    while (client.connected()){
-      if (client.available()){
-        int ReadEthernet = Ethernet.read();
-        if (ReadEthernet == '0'){
-          digitalWrite(PinRelay, HIGH);
-          Ethernet.println("Relay: Ligado");
-        }
-        if (ReadEthernet == '1'){
-          digitalWrite(PinRelay, LOW);
-          Ethernet.println("Relay: Desligado");
-        }
-      }
-    }
-  }
-}
+  EthernetClient client = server.available(); 
+  //Serial.print(client);
+  if (client) { 
+     while (client.connected()) {
+       if (client.available()) { 
+       char c = client.read(); 
+       if (readString.length() < 100) {
+         readString += c; 
+       }  
+       if (c == '\n') { 
+         if (readString.indexOf("?") < 0) { 
+         }
+         else 
+           if(readString.indexOf("ledParam=1") > 0) {
+             digitalWrite(PinRelay, HIGH); 
+             status = 1; 
+           } 
+           else { 
+             digitalWrite(PinRelay, LOW);
+             status = 0; 
+           }
+           client.println("HTTP/1.1 200 OK"); 
+           client.println("Content-Type: text/html"); 
+           client.println(""); 
+           client.println("<!DOCTYPE HTML>"); 
+           client.println("<html>"); 
+           client.println("<head>");
+           client.println("<title>Lab. Remoto - DC/UFSCar</title>"); 
+           client.println("</head>"); 
+           client.println("<body style=background-color:#E0E0E0; color:#2b3856>"); 
+           client.println("<center>");
+           client.println("<h1>Lab. Remoto - DC/UFSCar</h1>");
+           client.println("<hr/>"); 
+           client.println("<h2>Tornar LED:</h2>"); 
+           if (status == 1) { 
+             client.println("<form method=get name=LED><input type=hidden name=ledParam value=0 /><input type=submit value=VERMELHO /></form>");
+           }
+           else { 
+             client.println("<form method=get name=LED><input type=hidden name=ledParam value=1 /><input type=submit value=VERDE /></form>");
+           }
+           client.println("<hr/>"); 
+           client.println("<h2>Status do LED:</h2>"); 
+           if (status == 1){ 
+             client.println("<font color='green' size='5'>VERDE</font>"); 
+           } 
+           else { 
+             client.println("<font color='red' size='5'>VERMELHO</font>"); 
+           }     
+           client.println("<hr/>"); 
+           client.println("</center>");
+           client.println("</body>"); 
+           client.println("</html>"); 
+           readString=""; 
+           client.stop(); 
+         }
+       }
+     }
+   }
+ }
