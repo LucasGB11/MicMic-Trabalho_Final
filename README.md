@@ -1,7 +1,7 @@
 # Microprocessadores e Microcontroladores - Grupo C - Trabalho Final
 
 ## Integrantes
-- 759030 - Camila Isabel de Souza Bueno -  (username GitHub)
+- 759030 - Camila Isabel de Souza Bueno - Icamomila (username GitHub)
 - 769170 - Davi Batista Silveira -  (username GitHub)
 - 769184 - José Matheus Queiroz Rodrigues -  (username GitHub)
 - 769185 - Lucas Gabriel Bassan de Morais -  (username GitHub)
