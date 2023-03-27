@@ -36,8 +36,9 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - X. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor necessárias para reproduzir a aplicação estão contidas nas imagens "App Inventor 1" e "App Inventor 2" contidas nesse mesmo repositório.
 
 ## Referências
-- https://www.robocore.net/tutoriais/modulo-rele-arduino - Módulo Relé Arduino
-- https://www.youtube.com/watch?v=IUVoIux3oNo&t=385s - Leitura de Sensor - App inventor Ethernet Shield
-- https://www.youtube.com/watch?v=4Vc5Rmuu7kc - AppInventor y Arduino Ethernet
-- https://www.youtube.com/watch?v=r15dVlsg2wA - Luminárias controladas por Arduino e Ethernet Shield via App Android
-- https://vlab.dc.ufscar.br/examples/arduino_uno/web.txt - Exemplo de controle do arduino via web, fornecido pelo Departamento de Computação (DC) da UFSCar
+- 1- https://www.robocore.net/tutoriais/modulo-rele-arduino - Módulo Relé Arduino
+- 2- https://www.youtube.com/watch?v=IUVoIux3oNo&t=385s - Leitura de Sensor - App inventor Ethernet Shield
+- 3- https://www.youtube.com/watch?v=4Vc5Rmuu7kc - AppInventor y Arduino Ethernet
+- 4- https://www.youtube.com/watch?v=r15dVlsg2wA - Luminárias controladas por Arduino e Ethernet Shield via App Android
+- 5- https://vlab.dc.ufscar.br/examples/arduino_uno/web.txt - Exemplo de controle do arduino via web, fornecido pelo Departamento de Computação (DC) da UFSCar
+- 6- https://appinventor.mit.edu/ - Plataforma utilizada para desenvolver o app android
