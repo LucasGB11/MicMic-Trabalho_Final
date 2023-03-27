@@ -30,7 +30,7 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - SEMANA 4: Todas as propostas para o projeto foram concluidas (desenvolvimento de dispositivo de automação através do controle de energia elétrica por via remota, utilizando um aplicativo android via internet). Assim, com base nesse foi desenvolvido a sessão "Reprodução do projeto".
 
 ## Reprodução do Projeto (Passo a passo)
-- 1.
+- 1. Em "Montagem Ethernet.png", neste mesmo repositório, está ilustrado o modo que foi feita a montagem das conexões entre os módulos e o arduíno. Essa montagem foi colocada dentro do relé, entretanto, o computador serviu como fonte de alimentação para o arduíno. Esse pequeno detalhe pode ser resolvido utilizando uma fonte de alimenação para arduíno apropriada. 
 - 2.
 - 3.
 - X. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor necessárias para reproduzir a aplicação estão contidas nas imagens "App Inventor 1" e "App Inventor 2" contidas nesse mesmo repositório.
