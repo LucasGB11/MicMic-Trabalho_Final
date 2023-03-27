@@ -4,7 +4,7 @@
 - 759030 - Camila Isabel de Souza Bueno - Icamomila (username GitHub)
 - 769170 - Davi Batista Silveira -  (username GitHub)
 - 769184 - José Matheus Queiroz Rodrigues -  (username GitHub)
-- 769185 - Lucas Gabriel Bassan de Morais -  (username GitHub)
+- 769185 - Lucas Gabriel Bassan de Morais - LucasGB11 (username GitHub)
 - 770153 -  Matheus Bolson - matheusbolson (username GitHub)
 
 ## Objetivo
