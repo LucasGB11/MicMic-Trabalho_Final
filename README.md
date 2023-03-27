@@ -33,7 +33,7 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - 1.
 - 2.
 - 3.
-- X. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor 
+- X. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor necessárias para reproduzir a aplicação estão contidas nas imagens "App Inventor 1" e "App Inventor 2" contidas nesse mesmo repositório.
 
 ## Referências
 - https://www.robocore.net/tutoriais/modulo-rele-arduino - Módulo Relé Arduino
