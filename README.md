@@ -1,11 +1,11 @@
 # Microprocessadores e Microcontroladores - Grupo C - Trabalho Final
 
 ## Integrantes
-- 759030 - Camila Isabel de Souza Bueno
-- 769170 - Davi Batista Silveira 
-- 769184 - José Matheus Queiroz Rodrigues
-- 769185 - Lucas Gabriel Bassan de Morais 
-- 770153 -  Matheus Bolson
+- 759030 - Camila Isabel de Souza Bueno -  (username GitHub)
+- 769170 - Davi Batista Silveira -  (username GitHub)
+- 769184 - José Matheus Queiroz Rodrigues -  (username GitHub)
+- 769185 - Lucas Gabriel Bassan de Morais -  (username GitHub)
+- 770153 -  Matheus Bolson - matheusbolson (username GitHub)
 
 ## Objetivo
 Desenvolver um disposivo de automação através do controle de energia elétrica a qual passa em algum equipamento eletrônico, como uma lâmpada. Dessa forma, o equipamento deverá ligar e desligar de maneira remota, ou seja, esse poderá ser controlado via internet.
@@ -27,6 +27,13 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - SEMANA 1: A ideia inicial preocupava-se apenas com o controle por meio da conexão bluetooth, logo a sugestão de controle via internet ainda não foi implementada. Por conseguinte serão estudados os materiais necessários e a maneira de integração destes com o projeto inicial no decorrer das próximas semanas. Assim, atualizações serão realizadas posteriormente na descrição do projeto. 
 - SEMANA 2: Após pesquisas relacionadas ao controle do arduino via internet, foi descartada a ideia inicial de controle pelo bluetooth. Dessa forma, o "Ojetivo", "Materiais utilizados" e a "Breve descrição do desenvolvimento do projeto" foram atualidos para comportarem a alteração do projeto.
 - SEMANA 3: A ideia inicial de controle de um dispositivo de maneira remota foi concluido. No entanto, com as dificuldades encontradas de conexão entre o arduino e o app android desenvolvido, fizemos novas alterações no projeto. O acionamento do dispositivo será prioritariamente via uma interface web. Caso no decorrer da semana seja desenvolvida uma solução para o aplicativo, esse será mantido no projeto final.
+- SEMANA 4: Todas as propostas para o projeto foram concluidas (desenvolvimento de dispositivo de altomação através do controle de energia elétrica por via remota, utilizando um aplicativo android via internet). Assim, com base nesse foi desenvolvido a sessão "Reprodução do projeto".
+
+## Reprodução do Projeto (Passo a passo)
+- 1.
+- 2.
+- 3.
+- X. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor 
 
 ## Referências
 - https://www.robocore.net/tutoriais/modulo-rele-arduino - Módulo Relé Arduino
