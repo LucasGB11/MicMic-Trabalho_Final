@@ -33,6 +33,9 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - 1. Em "Montagem Ethernet.png", neste mesmo repositório, está ilustrado o modo que foi feita a montagem das conexões entre os módulos e o arduíno. Essa montagem foi colocada dentro do relé, entretanto, o computador serviu como fonte de alimentação para o arduíno. Esse pequeno detalhe pode ser resolvido utilizando uma fonte de alimenação para arduíno apropriada.
 - 2. Com a montagem de hardware feita, é necessário realizar o carregamento do código no Arduino, o qual está presente neste repositório. Nesse código está configurado qual o IP que será utilizado pela rede para que seja realizado uma conexão estável com o celular, do qual realizará o controle de energia.
 - 3. Para realizar a conexão via rede, foi conectado um cabo de ethernet crossover, que possibilita fazer a ligação “direta” entre dois dispositivos sem a utilização de roteadores. Além disso, é necessário configurar em “Propriedades de Ethernet” o protocolo IP Versão 4 para que os IP’s sejam no mesmo endereço do qual foi utilizado no código do Arduino.
+<p align="center">
+  <img src="![image](https://user-images.githubusercontent.com/72847338/228102914-df29945f-8575-4bba-9a4c-5b51aafcdef6.png)" />
+</p>
 ![image](https://user-images.githubusercontent.com/72847338/228102537-f1202f33-5bc6-431f-b6c9-cc76b12034b9.png)
 ![image](https://user-images.githubusercontent.com/72847338/228102565-425669d7-c401-4d79-870e-40ca19a953c6.png)
 - 4. Após isso, é necessário conectar o PC a uma rede wifi e criar uma “Conexão de Ponte” do qual irá ligar a rede wifi com a Ethernet, possibilitando que os dispositivos conectados a rede wireless se comuniquem com os conectados via cabo.
