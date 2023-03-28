@@ -25,7 +25,7 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 
 ## Observações
 - SEMANA 1: A ideia inicial preocupava-se apenas com o controle por meio da conexão bluetooth, logo a sugestão de controle via internet ainda não foi implementada. Por conseguinte serão estudados os materiais necessários e a maneira de integração destes com o projeto inicial no decorrer das próximas semanas. Assim, atualizações serão realizadas posteriormente na descrição do projeto. 
-- SEMANA 2: Após pesquisas relacionadas ao controle do arduino via internet, foi descartada a ideia inicial de controle pelo bluetooth. Dessa forma, o "Ojetivo", "Materiais utilizados" e a "Breve descrição do desenvolvimento do projeto" foram atualidos para comportarem a alteração do projeto.
+- SEMANA 2: Após pesquisas relacionadas ao controle do arduino via internet, foi descartada a ideia inicial de controle pelo bluetooth. Dessa forma, o "Objetivo", "Materiais utilizados" e a "Breve descrição do desenvolvimento do projeto" foram atualidos para comportarem a alteração do projeto.
 - SEMANA 3: A ideia inicial de controle de um dispositivo de maneira remota foi concluido. No entanto, com as dificuldades encontradas de conexão entre o arduino e o app android desenvolvido, fizemos novas alterações no projeto. O acionamento do dispositivo será prioritariamente via uma interface web. Caso no decorrer da semana seja desenvolvida uma solução para o aplicativo, esse será mantido no projeto final.
 - SEMANA 4: Todas as propostas para o projeto foram concluidas (desenvolvimento de dispositivo de automação através do controle de energia elétrica por via remota, utilizando um aplicativo android via internet). Assim, com base nesse foi desenvolvido a sessão "Reprodução do projeto".
 
@@ -34,7 +34,7 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - 2. Com a montagem de hardware feita, é necessário realizar o carregamento do código no Arduino, o qual está presente neste repositório. Nesse código está configurado qual o IP que será utilizado pela rede para que seja realizado uma conexão estável com o celular, do qual realizará o controle de energia.
 - 3.
 - X. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor necessárias para reproduzir a aplicação estão contidas nas imagens "App Inventor 1" e "App Inventor 2" contidas nesse mesmo repositório.
-- 
+- Para ocorrer a conexão correta entre celular e arduino, tanto o notebook quanto o celular devem estar conectados em um roteador externo, para que o aplicativo mande o comando ao arduino que recebe e executa uma determinado instrução.
 ![image](https://user-images.githubusercontent.com/72847338/228101063-3ca84e80-b07a-4afe-91e6-842c48fb039e.png)
 
 ## Referências
