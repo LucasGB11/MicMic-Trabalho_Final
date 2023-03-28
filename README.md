@@ -35,7 +35,7 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - 3. Para realizar a conexão via rede, foi conectado um cabo de ethernet crossover, que possibilita fazer a ligação “direta” entre dois dispositivos sem a utilização de roteadores. Além disso, é necessário configurar em “Propriedades de Ethernet” o protocolo IP Versão 4 para que os IP’s sejam no mesmo endereço do qual foi utilizado no código do Arduino.
 - 
 <p align="center">
-  <img src="![image](https://user-images.githubusercontent.com/72847338/228102914-df29945f-8575-4bba-9a4c-5b51aafcdef6.png)" />
+  ![image](https://user-images.githubusercontent.com/72847338/228102537-f1202f33-5bc6-431f-b6c9-cc76b12034b9.png)
 </p>
 
 ![image](https://user-images.githubusercontent.com/72847338/228102537-f1202f33-5bc6-431f-b6c9-cc76b12034b9.png)
