@@ -44,7 +44,7 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - 4. Após isso, é necessário conectar o PC a uma rede wifi e criar uma “Conexão de Ponte” do qual irá ligar a rede wifi com a Ethernet, possibilitando que os dispositivos conectados a rede wireless se comuniquem com os conectados via cabo.
 ![image](https://user-images.githubusercontent.com/72847338/228102604-9f2c64d9-ec06-4514-a799-ef3122a0afb4.png)
 - 5. Para ocorrer a conexão correta entre celular e arduino, tanto o notebook quanto o celular devem estar conectados em um roteador externo, para que o aplicativo mande o comando ao arduino que recebe e executa uma determinada instrução.
-- X. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor necessárias para reproduzir a aplicação estão contidas nas imagens "App Inventor 1" e "App Inventor 2" contidas nesse mesmo repositório.
+- 6. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor necessárias para reproduzir a aplicação estão contidas nas imagens "App Inventor 1" e "App Inventor 2" contidas nesse mesmo repositório.
 
 ## Referências
 - 1- https://www.robocore.net/tutoriais/modulo-rele-arduino - Módulo Relé Arduino
