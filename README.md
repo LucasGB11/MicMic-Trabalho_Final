@@ -11,10 +11,16 @@
 Desenvolver um disposivo de automação através do controle de energia elétrica a qual passa em algum equipamento eletrônico, como uma lâmpada. Dessa forma, o equipamento deverá ligar e desligar de maneira remota, ou seja, esse poderá ser controlado via internet.
 
 ## Materiais utilizados
-- Arduino uno;
+- Arduino Uno;
 - Ethernet Shield;
 - Relé;
 - Fios de energia, para conectar o aparelho na energia;
+- Lâmpada; 
+- Celulares;
+- Notebook;
+- Cabo Ethernet;
+- Plugue de tomada fêmea e macho;
+- Extensão de energia;
 
 ## Breve descrição do desenvolvimento do projeto
 Primeiramente será realizada a montagem das conexões entre os módulos e o Arduino da maneira como está na imagem "Montagem Ethernet.png" nesse mesmo repositório. O código utilizado para conexão e controle desses dispositivos esta salvo no arquivo "código" e ele será desenvolvido em linguagem C voltada para Arduino.
