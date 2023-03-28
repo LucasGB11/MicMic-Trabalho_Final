@@ -46,6 +46,9 @@ Por fim, será desenvolvido um aplicativo simples para controle do dispositivo v
 - 5. Para ocorrer a conexão correta entre celular e arduino, tanto o notebook quanto o celular devem estar conectados em um roteador externo, para que o aplicativo mande o comando ao arduino que recebe e executa uma determinada instrução.
 - 6. Utilizando o MIT App Inventor foi desenvolvido uma aplicação android de interface simples para ligar e desligar a energia elétrica do dispositivo, além de mostrar o status (LIGADO ou DESLIGADO) - Tanto a parte de Designer, quanto de Blocks do App Inventor necessárias para reproduzir a aplicação estão contidas nas imagens "App Inventor 1" e "App Inventor 2" contidas nesse mesmo repositório.
 
+## Vídeos de apresentação em sala e funcionamento do projeto
+https://drive.google.com/folderview?id=1eDrqhmYjWzcIUeZPk6Kxl7Yy-7Pd3-ej
+
 ## Referências
 - 1- https://www.robocore.net/tutoriais/modulo-rele-arduino - Módulo Relé Arduino
 - 2- https://www.youtube.com/watch?v=IUVoIux3oNo&t=385s - Leitura de Sensor - App inventor Ethernet Shield
