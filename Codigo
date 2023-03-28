@@ -5,8 +5,8 @@
 int PinRelay = 7;
 
 byte mac[] = {0xCA, 0xFE, 0xBA, 0xBE, 0xFE, 0xED};
-byte ip[]      = {192, 168 , 1, 100};
-byte gateway[] = {192,  168,  1, 101}; 
+byte ip[]      = {192, 168 , 43, 100};
+byte gateway[] = {192,  168,  43, 101}; 
 byte subnet[]  = {255, 255, 255, 0}; 
 
 //Inicializa o servidor web na porta 80
@@ -43,12 +43,12 @@ void loop(){
          if (readString.indexOf("?") < 0) { 
          }
          else 
-           if(readString.indexOf("ledParam=1") > 0) {
-             digitalWrite(PinRelay, HIGH); 
+           if(readString.indexOf("DESLIGAR") < 0) {
+             digitalWrite(PinRelay, LOW); 
              status = 1; 
            } 
            else { 
-             digitalWrite(PinRelay, LOW);
+             digitalWrite(PinRelay, HIGH);
              status = 0; 
            }
            client.println("HTTP/1.1 200 OK"); 
@@ -57,26 +57,26 @@ void loop(){
            client.println("<!DOCTYPE HTML>"); 
            client.println("<html>"); 
            client.println("<head>");
-           client.println("<title>Lab. Remoto - DC/UFSCar</title>"); 
+           client.println("<title>Controlador de energia via web</title>"); 
            client.println("</head>"); 
            client.println("<body style=background-color:#E0E0E0; color:#2b3856>"); 
            client.println("<center>");
-           client.println("<h1>Lab. Remoto - DC/UFSCar</h1>");
+           client.println("<h1>Controlador de energia via web</h1>");
            client.println("<hr/>"); 
-           client.println("<h2>Tornar LED:</h2>"); 
+           client.println("<h2>Ligar/Desligar Dispositivo:</h2>"); 
            if (status == 1) { 
-             client.println("<form method=get name=LED><input type=hidden name=ledParam value=0 /><input type=submit value=VERMELHO /></form>");
+             client.println("<form method=get name=rele><input type=hidden name=releParam value=0 /><input type=submit value=LIGAR /></form>");
            }
            else { 
-             client.println("<form method=get name=LED><input type=hidden name=ledParam value=1 /><input type=submit value=VERDE /></form>");
+             client.println("<form method=get name=rele><input type=hidden name=releParam value=1 /><input type=submit value=DESLIGAR /></form>");
            }
            client.println("<hr/>"); 
-           client.println("<h2>Status do LED:</h2>"); 
+           client.println("<h2>Status do DISPOSITIVO:</h2>"); 
            if (status == 1){ 
-             client.println("<font color='green' size='5'>VERDE</font>"); 
+             client.println("<font color='red' size='5'>DESLIGADO</font>");
            } 
            else { 
-             client.println("<font color='red' size='5'>VERMELHO</font>"); 
+             client.println("<font color='green' size='5'>LIGADO</font>");
            }     
            client.println("<hr/>"); 
            client.println("</center>");
